@@ -1,0 +1,43 @@
+.App {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  border: 15px dotted black;
+  &__form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+  }
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__box label {
+    padding-bottom: 10px;
+  }
+  &__box input {
+    padding-bottom: 10px;
+  }
+  &__boxMsg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__boxMsg label{
+    padding-bottom: 10px;
+  }
+  
+
+  &__boxbutton {
+    float: right;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    background: linear-gradient(#e66465, #9198e5);
+    border: 5px double black;
+    border-radius: 2px;
+  }
+
+}
